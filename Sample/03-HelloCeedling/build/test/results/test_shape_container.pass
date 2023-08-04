@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: test_shape_container.c
+:successes:
+- :test: test_shape_container_init
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_shape_container_calc_rect_is_square
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+- :test: test_shape_container_calc_rect_is_not_square
+  :line: 51
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.001254913000138913
